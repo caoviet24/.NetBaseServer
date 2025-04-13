@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "AspNet PostgreSQL",
+            "driver": "PostgreSQL",
+            "server": "localhost",
+            "port": 5432,
+            "database": "aspnetdb",
+            "username": "postgres",
+            "password": "postgres"
+        }
+    ],
+    "dotnet-test-explorer.testProjectPath": "**/*.csproj",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "csharp.format.enable": true,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    }
+}
